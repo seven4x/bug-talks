@@ -49,7 +49,7 @@ class Example {
     public static void main(String[] args) {
         Example example = new Example();
         for (int i = 0; i < 10; i++) {
-            var t = new Thread(() -> {
+            Thread t = new Thread(() -> {
                 example.test(Thread.currentThread().getName());
             });
             t.setName("t_" + i);

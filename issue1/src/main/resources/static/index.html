@@ -1,0 +1,31 @@
+<html>
+<head>
+    <title>abc</title>
+</head>
+
+<body>
+<div>
+
+    id2: <span id="id2">id2-value</span>
+
+</div>
+<hr/>
+<div>
+    id: <span id="id">id-value</span>
+
+</div>
+
+
+</body>
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $.get("/long-test").then(res => {
+            console.log(res)
+            $("#id2").text(res.id2)
+            $("#id").text(res.id)
+        })
+    })
+
+</script>
+</html>

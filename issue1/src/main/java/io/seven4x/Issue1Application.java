@@ -1,4 +1,4 @@
-package io.seven4x.issue1;
+package io.seven4x;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
