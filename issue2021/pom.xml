@@ -11,6 +11,13 @@
 
     <artifactId>issue2021</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.aliyun.schedulerx</groupId>
+            <artifactId>schedulerx2-spring-boot-starter</artifactId>
+            <version>1.2.4</version>
+        </dependency>
+    </dependencies>
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>

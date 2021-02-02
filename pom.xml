@@ -55,7 +55,7 @@
         </plugins>
     </build>
     <modules>
-        <module>issue1</module>
+        <module>issue</module>
         <module>issue2020</module>
         <module>issue2021</module>
     </modules>
