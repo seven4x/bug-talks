@@ -5,13 +5,14 @@ import com.alibaba.schedulerx.worker.domain.JobContext;
 import com.alibaba.schedulerx.worker.processor.MapReduceJobProcessor;
 import com.alibaba.schedulerx.worker.processor.ProcessResult;
 import org.springframework.stereotype.Component;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
-@Component
-public class DemoMapReducerProcess extends MapReduceJobProcessor {
+@Service
+public class MyDemoMapReducerProcess extends MapReduceJobProcessor {
     final String level1 = "Task_Level_1";
 
 
