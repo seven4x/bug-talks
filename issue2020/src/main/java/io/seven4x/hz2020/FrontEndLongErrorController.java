@@ -1,4 +1,4 @@
-package io.seven4x.issue1;
+package io.seven4x.hz2020;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-public class LongTestController {
+public class FrontEndLongErrorController {
 
     @RequestMapping("/long-test")
     @ResponseBody

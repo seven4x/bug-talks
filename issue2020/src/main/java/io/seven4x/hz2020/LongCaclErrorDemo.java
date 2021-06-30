@@ -1,9 +1,9 @@
-package io.seven4x.hz2021;
+package io.seven4x.hz2020;
 
-public class DDHDemo {
+public class LongCaclErrorDemo {
 
     public static void main(String[] args) {
-        DDHDemo demo = new DDHDemo();
+        LongCaclErrorDemo demo = new LongCaclErrorDemo();
         demo.test(3, 25);
         System.out.println((long) 25 * 1024 * 1024 * 1024 * 8);
         System.out.println(25 * 1024 * 1024 * 1024 * 8);

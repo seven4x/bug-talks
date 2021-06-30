@@ -1,4 +1,4 @@
-package io.seven4x.lib.sync;
+package io.seven4x.hz2020.sync;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.locks.ReentrantLock;
