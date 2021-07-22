@@ -1,4 +1,4 @@
-package io.seven4x.hz2020;
+package com.bitseatech.staging;
 
 import java.io.UnsupportedEncodingException;
 import java.nio.charset.StandardCharsets;

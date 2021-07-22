@@ -1,4 +1,4 @@
-package com.bitseatech.schedulerx;
+package com.bitseatech.p13.schedulerx;
 
 import com.alibaba.schedulerx.worker.processor.JavaProcessor;
 import org.springframework.beans.factory.annotation.Autowired;

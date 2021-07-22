@@ -1,4 +1,4 @@
-package io.seven4x.hz2020;
+package com.bitseatech.staging;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

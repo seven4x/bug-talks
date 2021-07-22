@@ -1,4 +1,4 @@
-package com.bitseatech.schedulerx;
+package com.bitseatech.p13.schedulerx;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;

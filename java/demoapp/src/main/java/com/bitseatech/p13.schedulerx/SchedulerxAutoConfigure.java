@@ -1,4 +1,4 @@
-package com.bitseatech.schedulerx;
+package com.bitseatech.p13.schedulerx;
 
 import com.alibaba.schedulerx.common.util.ConfigUtil;
 import com.alibaba.schedulerx.worker.SchedulerxWorker;
@@ -64,7 +64,7 @@ public class SchedulerxAutoConfigure {
         schedulerxWorker.setMapMasterStatusCheckInterval(properties.getMapMasterStatusCheckInterval());
         schedulerxWorker.setEnableSecondDelayCycleIntervalMs(properties.isEnableSecondDealyCycleIntervalMs());
         schedulerxWorker.setEnableMapMasterFailover(properties.isEnableMapMasterFailover());
-        
+
         // 设置启动模式
         ConfigUtil.getWorkerConfig().setProperty(WorkerConstants.WORKER_STARTER_MODE,
             WorkerConstants.WORKER_STARTER_SPRINGBOOT);

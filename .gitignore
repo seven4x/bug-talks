@@ -31,3 +31,5 @@ build/
 .vscode/
 
 .java-version
+
+node_modules/

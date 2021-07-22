@@ -1,4 +1,4 @@
-package com.bitseatech.schedulerx;
+package com.bitseatech.p13.schedulerx;
 
 import com.alibaba.schedulerx.worker.domain.WorkerConstants;
 import org.springframework.boot.context.properties.ConfigurationProperties;
@@ -140,45 +140,45 @@ public class SchedulerxProperties {
      * Work集群内部标签，同标签将会启动一个
      */
     private String label;
-    
+
     /**
      * 如果使用了非alios的docker环境(包括k8s)，需要开启该开关
      */
     private boolean enableCgroupMetrics = false;
-    
+
     /**
      * 默认cgroup路径为/sys/fs/cgroup/cpu/，如果不同需要修改，否则无法采集到cgroup数据
      */
     private String cgroupPathPrefix = "/sys/fs/cgroup/cpu/";
-    
+
     /**
-     * akka remoting被隔离了，是否自动恢复 
+     * akka remoting被隔离了，是否自动恢复
      */
     private boolean akkaRemotingAutoRecover = true;
-    
+
     /**
      * 是否启用heartbeat日志
      * @return
      */
-    private boolean enableHeartbeatLog = true; 
-    
+    private boolean enableHeartbeatLog = true;
+
     /**
      * Map模型状态检查间隔(ms)
      * @return
      */
     private int mapMasterStatusCheckInterval = WorkerConstants.Map_MASTER_STATUS_CHECK_INTERVAL_DEFAULT;
-    
+
     /**
      * 启动second_delay间隔单位为ms，默认为秒
      * @return
      */
     private boolean enableSecondDealyCycleIntervalMs = false;
-    
+
     /**
      * 启用MapMaster failover能力，默认启用
      */
     private boolean enableMapMasterFailover = true;
-    
+
     /**
      * schedulerx worker请求console接口的http超时时间，默认10秒
      * @return
@@ -392,7 +392,7 @@ public class SchedulerxProperties {
     public void setLabel(String label) {
         this.label = label;
     }
-    
+
     public boolean isEnableCgroupMetrics() {
         return enableCgroupMetrics;
     }

@@ -1,4 +1,4 @@
-package com.bitseatech.testable;
+package com.bitseatech.staging.testable;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

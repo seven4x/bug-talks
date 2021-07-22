@@ -5,9 +5,24 @@
     <title>Title</title>
 </head>
 <body>
-
-<div id="appWrapper">
+demo app
+<hr/>
+<div id="root">
+    <span>root</span>
 
 </div>
+
+
+<script src="a.js" async></script>
+<!--<script src="a.js"></script>-->
+
 </body>
+
 </html>
+<!--
+doc:https://zh.javascript.info/script-async-defer  默认是遇到script就下载解析执行，这也是为什么建议script标签放在body后面的原因
+https://developer.mozilla.org/zh-CN/docs/Web/API/Document/write
+
+错误告警：Failed to execute 'write' on 'Document': It isn't possible to write into a document from an asynchronously-loaded external script unless it is explicitly opened.
+API提示：[Violation] Avoid using document.write(). https://developers.google.com/web/updates/2016/08/removing-document-write
+-->
